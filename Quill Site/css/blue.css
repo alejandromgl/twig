@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    
+}
+
+
+body {
+    background-color: aliceblue;
+    background-image: url(/assets/img/back-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    color: #FFF;
+    font-family: sans-serif;
+    max-width: 100%;
+    max-height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+}
+
+
+/* LOGO */
+
+.logo {
+    float: left;
+    margin-left: 5%;
+    color: #FFF;
+}
+
+.logo h1 {
+    font-size: 25px;
+    color: #FFF;
+}
+
+
+/* CONTAINER HEAD */
+
+.header {
+    display: block;
+    overflow: hidden;
+    background-color: #2196f3;
+    width: 102%;
+    margin-top: -10px;
+    margin-left: -10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* MAIN NAV */
+
+.mainNav {
+    float: right;
+    margin-right: 5%;
+}
+
+.mainNav li {
+    color: black;
+    display: block;
+    width: 60px;
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    padding: 7px;
+    margin: 5px;
+    
+}
+
+.mainNav li:hover {
+    text-shadow: 1px 1px 1px gray;
+    transform: scale(1.2, 1.2);
+}
+
+.mainNav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+
+/* CONTENT SECTION */
+
+.contentSection {
+    margin-top: 15px;
+    margin-bottom: 700px;
+}
+
+figure img {
+    width: 420px;
+    height: 250px;
+}
+
+figure video {
+    width: 420px;
+    height: 250px;
+}
+
+.divFeed {
+    float: left;
+    width: 500px;
+    height: 415px;
+    margin-top: 110px;
+    margin-left: 150px;
+    display: block;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+
+.divFeed:hover {
+    transition-duration: 1s;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
+.divFeed h3 {
+    text-align: center;
+    color: #2196f3;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+figure {
+    display: block;
+}
+
+figcaption {
+    display: block;
+}
+
+
+.divForm {
+    float: right;
+    width: 350px;
+    height: 415px;
+    margin-top: 110px;
+    margin-right: 150px;
+    display: block;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.divForm:hover {
+    transition-duration: 1s;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
+.divForm h2 {
+    text-align: center;
+    color: #2196f3;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.divForm form {
+    text-align: center;
+    width: 100%;
+}
+
+.divForm #passwordForm {
+    width: 75%;
+    height: 40px;
+    font-size: 15px;
+}
+
+.divForm #passwordForm:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divForm #emailForm {
+    width: 75%;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.divForm #emailForm:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divForm #buttonForm {
+    width: 76%;
+    height: 40px;
+    border-radius: 0.5px;
+    background-color: #2196f3;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+}
+
+.divForm #buttonForm:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.divForm #googleSignIn {
+    width: 76%;
+    height: 40px;
+    border-radius: 0.5px;
+    background-color: #4285f4;
+    color: #FFF;
+    font-family: Roboto medium, sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.divForm #googleSignIn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divForm #facebookSignIn {
+    width: 76%;
+    height: 40px;
+    border-radius: 0.5px;
+    background-color: #3B5998;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+.divForm #facebookSignIn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* FOOTER */
+
+.footContainer {
+    width: 102%;
+    display: block;
+    overflow: hidden;
+    background-color: #2196f3;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footContainer ol {
+    float: left;
+    margin-left: 3%
+}
+
+.footContainer ul {
+    width: 60px;
+    float: right;
+    padding-right: 50px;
+    margin-left: 15px;
+    margin-right: 2%;
+}
+
+.footContainer li {
+    color: white;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footContainer li:hover {
+    text-shadow: 1px 1px 1px gray;
+    transform: scale(1.2, 1.2);
+}
+
+.footContainer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+/* Screen Size Differences */
+
+
+@media screen (min-width: 375px) {
+    h1 {
+        color: black;
+    }
+}
